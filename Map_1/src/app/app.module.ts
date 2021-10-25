@@ -7,6 +7,7 @@ import { AgmCoreModule } from '@agm/core';
 import { LatLngComponent } from './lat-lng/lat-lng.component';
 import { CityRadiusComponent } from './city-radius/city-radius.component';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +18,7 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     AgmCoreModule.forRoot({
       apiKey:''
     })
